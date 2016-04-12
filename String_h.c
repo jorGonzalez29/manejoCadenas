@@ -14,6 +14,8 @@ size_t str_cspn(const char*, const char*);
 char *str_error(int);
 char *str_ncat(char*, const char*, size_t);
 int str_ncmp(const char*, const char*, size_t);
+char *str_ncpy(char*, const char*, size_t);
+char *str_pbrk(const char*, const char*);
 
 void main()
 {
@@ -153,4 +155,28 @@ int str_ncmp(const char *s1, const char *s2, size_t n) // preguntar por como lo 
     while(*s1 && *s1 ++ == *s2 ++ && n --)
         ;
     return (n == 0 || *s1 == '\0' ? 0 : (*(unsigned char*)s1) - (*(unsigned char*)s2));
+}
+
+char *str_ncpy(char *s1, const char *s2, size_t n)
+{
+    char *aux = s1;
+
+    while(*s2 ++ && n --)
+
+        *s1 ++ = *(char*)s2;
+    while(n --)
+
+     s1* ++ = '\0';
+
+    return aux;
+}
+
+char *str_pbrk(const char *s1, const char *s2)
+{
+    char *aux = (char*)s1, aux2 = (char*)s2;
+
+    while(*aux && !strchr(aux2,*aux))// aux++ aca
+        aux ++;
+
+    return *aux ? aux : NULL;
 }
