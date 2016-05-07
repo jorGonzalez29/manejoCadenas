@@ -31,9 +31,17 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="FunUpdate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ProUpdate.h" />
+		<Unit filename="funciones.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="prototipos.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
