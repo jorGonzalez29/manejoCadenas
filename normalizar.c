@@ -29,13 +29,14 @@ void normalizar(char *c)
 
       if(*pos)
       {
-         *dest = esMin(*pos);
+          printf("%s",pos);
+         //*dest = esMin(*pos);
          dest ++;
          pos ++;
 
         while(!esBlanco(*pos) && *pos)
         {
-          *dest = esMay(*pos);
+          //*dest = pesMay(*pos);
            dest ++;
            pos ++;
         }

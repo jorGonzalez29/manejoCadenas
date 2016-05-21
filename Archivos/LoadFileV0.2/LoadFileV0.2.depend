@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1463865679 source:c:\funcionesstring\archivos\loadfilev0.2\funload.c
+	<stdio.h>
+	"protLoadFile.h"
+
+1463863069 c:\funcionesstring\archivos\loadfilev0.2\protloadfile.h
+
+1463863110 source:c:\funcionesstring\archivos\loadfilev0.2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"protLoadFile.h"
+

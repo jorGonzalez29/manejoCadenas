@@ -25,8 +25,10 @@ int getIntoPerson(person *reg)
             printf("D.N.I: ");
             scanf("%ld",&reg->dni);
              fflush(stdin);
-             printf("Apellido y Nombre: ");
-            scanf("%s %s",&reg->surName,&reg->firstName);
+             printf("Apellido: ");
+            gets(&reg->surName);
+            printf("Nombre: ");
+            gets(&reg->firstName);
              fflush(stdin);
              printf("Sexo: ");
             scanf("%c",&reg->sex);
@@ -79,10 +81,11 @@ void showFile(FILE **fp)
    long actualPos = ftell(*fp);
    rewind(*fp);
    showPerson(NULL);
+   fread(&reg,sizeof(person),1,*fp);
    while(!feof(*fp))
    {
-       fread(&reg,sizeof(person),1,*fp);
        showPerson(&reg);
+       fread(&reg,sizeof(person),1,*fp);
    }
    fseek(*fp,actualPos,SEEK_SET);
    fclose(*fp);

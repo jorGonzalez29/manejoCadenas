@@ -500,7 +500,7 @@ char *str_str(const char*, const char*);
 ////el carácter, c, entonces retorna un puntero nulo.
 //}
 
-//size_t str_spn(const char *s1, const char *s2) //preguntar no hace lo que quiero.
+//size_t str_spn(const char *s1, const char *s2) //preguntar no hace lo que quiero.***************************************
 //{
 //    char *aux = s1;
 //    size_t cant = 0;
@@ -517,7 +517,7 @@ char *str_str(const char*, const char*);
 ////La función retorna la longitud de esta subcadena.
 //}
 
-//char *str_str(const char *s1, const char *s2)//preguntar no hace lo que quiero.
+//char *str_str(const char *s1, const char *s2)//preguntar no hace lo que quiero.************************************
 //{
 //  size_t tam = strlen(s2);
 //  char *aux = s1;
@@ -529,4 +529,4 @@ char *str_str(const char*, const char*);
 //  return *aux ? aux : NULL;
 //}
 
-//strtok y strxfrm no los entiendo
+//strtok y strxfrm no los entiendo.

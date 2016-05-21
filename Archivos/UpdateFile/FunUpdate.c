@@ -97,10 +97,11 @@ void showFilePerson(FILE **fp)
    long actualPos = ftell(*fp);
    rewind(*fp);
    showPerson(NULL);
+   fread(&reg,sizeof(person),1,*fp);
    while(!feof(*fp))
    {
-       fread(&reg,sizeof(person),1,*fp);
        showPerson(&reg);
+       fread(&reg,sizeof(person),1,*fp);
    }
    fseek(*fp,actualPos,SEEK_SET);
    fclose(*fp);
@@ -132,10 +133,11 @@ void showFileEmployee(FILE **fp)
    long actualPos = ftell(*fp);
    rewind(*fp);
    showEmployee(NULL);
+   fread(&reg,sizeof(employee),1,*fp);
    while(!feof(*fp))
    {
-       fread(&reg,sizeof(employee),1,*fp);
        showEmployee(&reg);
+       fread(&reg,sizeof(employee),1,*fp);
    }
    fseek(*fp,actualPos,SEEK_SET);
    fclose(*fp);

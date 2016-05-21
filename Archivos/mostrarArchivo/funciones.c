@@ -24,10 +24,11 @@ void showFile(FILE **fp)
    long actualPos = ftell(*fp);
    rewind(*fp);
    showPerson(NULL);
+   fread(&reg,sizeof(person),1,*fp);
    while(!feof(*fp))
    {
-       fread(&reg,sizeof(person),1,*fp);
        showPerson(&reg);
+       fread(&reg,sizeof(person),1,*fp);
    }
    fseek(*fp,actualPos,SEEK_SET);
    fclose(*fp);
@@ -37,13 +38,13 @@ void showPerson(person *p)
 {
     if(p)
     {
-        printf("%08ld %-*s %-*s %c %2d/%2d/%2d %.2f \n",
+        printf("%08ld   %-*s %-*s   %c      %2d/%2d/%2d   %.2f \n",
                 p->dni,
                 sizeof(p->surName)-1, p->surName,
-                sizeof(p->firstName)-1,p->firstName,p->sex,p->fec.day,p->fec.month,p->fec.year,p->salary);
+                sizeof(p->firstName)-2,p->firstName,p->sex,p->fec.day,p->fec.month,p->fec.year,p->salary);
     }
     else
     {
-        printf(" %-*s  %-*s %-*s SEXO FECHA SUELDO\n",sizeof(p->dni),"D.N.I",sizeof(p->surName),"APELLIDO(S)",sizeof(p->firstName),"NOMBRE(S)");
+        printf(" %-*s     %-*s%-*s SEXO     FECHA      SUELDO\n",sizeof(p->dni),"D.N.I",sizeof(p->surName),"APELLIDO(S)",sizeof(p->firstName),"NOMBRE(S)");
     }
 }
