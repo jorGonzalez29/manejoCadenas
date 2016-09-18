@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1464463542 source:c:\funcionesstring\archivos\piladinamica\funpiladim.c
+	<stdio.h>
+	"protPilaDim.h"
+
+1464462711 c:\funcionesstring\archivos\piladinamica\protpiladim.h
+
+1464462462 source:c:\funcionesstring\archivos\piladinamica\funpilatp3ejer4.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"protPilaDim.h"
+
+1464463594 source:c:\funcionesstring\archivos\piladinamica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"protPilaDim.h"
+

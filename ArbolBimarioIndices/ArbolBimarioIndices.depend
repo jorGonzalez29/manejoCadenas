@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1467683209 source:c:\funcionesstring\arbolbimarioindices\funarboles.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+	<stdlib.h>
+	"protArboles.h"
+
+1467680588 c:\funcionesstring\arbolbimarioindices\protarboles.h
+
+1467681997 source:c:\funcionesstring\arbolbimarioindices\main.c
+	<stdio.h>
+	<stdlib.h>
+	"protArboles.h"
+

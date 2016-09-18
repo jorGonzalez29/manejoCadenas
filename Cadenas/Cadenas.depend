@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1465518394 source:c:\funcionesstring\cadenas\funinversioncad.c
+	<stdio.h>
+	<string.h>
+	"protInversionCad.h"
+
+1465518062 c:\funcionesstring\cadenas\protinversioncad.h
+
+1465518253 source:c:\funcionesstring\cadenas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"protInversionCad.h"
+

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1465521253 source:c:\funcionesstring\subcadespacios\funsubcad.c
+	<stdio.h>
+	<string.h>
+	"protCadEspacios.h"
+
+1465520133 c:\funcionesstring\subcadespacios\protcadespacios.h
+
+1465521010 source:c:\funcionesstring\subcadespacios\main.c
+	<stdio.h>
+	<stdlib.h>
+

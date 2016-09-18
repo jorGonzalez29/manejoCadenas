@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1467485568 source:c:\funcionesstring\sobrecargaoperadores\funsobrecarga.cpp
+	<iostream>
+	<istream>
+	"protSobreCarga.h"
+
+1467485574 c:\funcionesstring\sobrecargaoperadores\protsobrecarga.h
+
+1467485509 source:c:\funcionesstring\sobrecargaoperadores\main.cpp
+	<iostream>
+	"protSobreCarga.h"
+

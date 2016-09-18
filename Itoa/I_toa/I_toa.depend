@@ -11,3 +11,8 @@
 	<stdlib.h>
 	"prototipos.h"
 
+1468184645 source:c:\funcionesstring\itoa\i_toa\itoa.c
+	<stdio.h>
+	<string.h>
+	"prototipos.h"
+

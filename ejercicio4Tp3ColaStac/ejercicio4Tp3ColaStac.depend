@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1468002629 source:c:\funcionesstring\ejercicio4tp3colastac\funarch.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"protArch.h"
+
+1468011042 c:\funcionesstring\ejercicio4tp3colastac\protarch.h
+	"protEjercicio4ColaDim.h"
+
+1468004429 c:\funcionesstring\ejercicio4tp3colastac\protejercicio4colastac.h
+
+1468004429 source:c:\funcionesstring\ejercicio4tp3colastac\funejercicio4colastac.c
+	<stdio.h>
+	"protEjercicio4ColaStac.h"
+
+1468010870 source:c:\funcionesstring\ejercicio4tp3colastac\main.c
+	<stdio.h>
+	<stdlib.h>
+	"protArch.h"
+	"protEjercicio4ColaDim.h"
+
+1468007029 c:\funcionesstring\ejercicio4tp3colastac\protejercicio4coladim.h
+
+1468013975 source:c:\funcionesstring\ejercicio4tp3colastac\funejercicio4coladim.c
+	<stdio.h>
+	<stdlib.h>
+	"protEjercicio4ColaDim.h"
+

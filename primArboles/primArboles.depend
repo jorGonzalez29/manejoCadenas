@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1466883538 source:c:\funcionesstring\primarboles\funarboles.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"protArboles.h"
+
+1466879394 c:\funcionesstring\primarboles\protarboles.h
+
+1466882995 source:c:\funcionesstring\primarboles\main.c
+	<stdio.h>
+	<stdlib.h>
+	"protArboles.h"
+

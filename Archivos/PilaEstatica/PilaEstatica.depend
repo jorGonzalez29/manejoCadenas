@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1463931237 source:c:\funcionesstring\archivos\pilaestatica\funpilas.c
+	<stdio.h>
+	"protPilaEstatic.h"
+
+1464452183 c:\funcionesstring\archivos\pilaestatica\protpilaestatic.h
+
+1464461230 source:c:\funcionesstring\archivos\pilaestatica\main.c
+	<stdio.h>
+	<stdlib.h>
+	"protPilaEstatic.h"
+
+1464461221 source:c:\funcionesstring\archivos\pilaestatica\funpilatp3ejer4.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"protPilaEstatic.h"
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1465257295 source:c:\funcionesstring\manejo de cadenas\funcioncad.c
+	<stdio.h>
+	<string.h>
+	"protCad.h"
+
+1465255654 c:\funcionesstring\manejo de cadenas\protcad.h
+
+1465256168 source:c:\funcionesstring\manejo de cadenas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"protCad.h"
+

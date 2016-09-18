@@ -1,0 +1,6 @@
+#ifndef PROTINVERSIONCAD_H_INCLUDED
+#define PROTINVERSIONCAD_H_INCLUDED
+void invertirCad(const char *cad);
+
+
+#endif // PROTINVERSIONCAD_H_INCLUDED

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1465517148 source:c:\funcionesstring\normalizarcad\funnormalzar.c
+	<stdio.h>
+	<string.h>
+	"protNormalizar.h"
+
+1465433196 c:\funcionesstring\normalizarcad\protnormalizar.h
+
+1465434721 source:c:\funcionesstring\normalizarcad\main.c
+	<stdio.h>
+	<stdlib.h>
+	"protNormalizar.h"
+

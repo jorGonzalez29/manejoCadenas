@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1467654728 source:c:\funcionesstring\ejercicio_2c++\main.cpp
+	<iostream>
+	"Class.h"
+
+1467504043 source:c:\funcionesstring\ejercicio_2c++\metodos.cpp
+	<iostream>
+	"Class.h"
+
+1467656003 c:\funcionesstring\ejercicio_2c++\class.h
+

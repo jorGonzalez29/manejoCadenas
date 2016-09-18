@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1465582701 source:c:\funcionesstring\decodificarcad\fundeco.c
+	<stdio.h>
+	<string.h>
+	"protDeco.h"
+
+1465581228 c:\funcionesstring\decodificarcad\protdeco.h
+
+1465580691 source:c:\funcionesstring\decodificarcad\main.c
+	<stdio.h>
+	<stdlib.h>
+	"protDeco.h"
+

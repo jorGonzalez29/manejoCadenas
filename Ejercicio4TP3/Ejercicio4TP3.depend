@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1467930968 source:c:\funcionesstring\ejercicio4tp3\funejer4.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"protEjer4.h"
+
+1467994522 c:\funcionesstring\ejercicio4tp3\protejer4.h
+
+1467931103 source:c:\funcionesstring\ejercicio4tp3\main.c
+	<stdio.h>
+	<stdlib.h>
+	"protEjer4.h"
+
+1467994653 source:c:\funcionesstring\ejercicio4tp3\funejer4dim.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	"protEjer4.h"
+

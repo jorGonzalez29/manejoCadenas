@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1464543830 source:c:\funcionesstring\archivos\ejerciciocoladim\main.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	"protColaParcial.h"
+
+1464542548 c:\funcionesstring\archivos\ejerciciocoladim\protcolaparcial.h
+
+1464543532 source:c:\funcionesstring\archivos\ejerciciocoladim\funcolaparcial.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"protColaParcial.h"
+
