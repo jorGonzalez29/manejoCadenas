@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1473006967 source:c:\users\jorge\desktop\3racursadaprogra\decodificarcadena\fundecodificar.c
+	<stdio.h>
+	"protDecodificar.h"
+
+1473003575 c:\users\jorge\desktop\3racursadaprogra\decodificarcadena\protdecodificar.h
+
+1473006246 source:c:\users\jorge\desktop\3racursadaprogra\decodificarcadena\main.c
+	<stdio.h>
+	<stdlib.h>
+	"protDecodificar.h"
+
