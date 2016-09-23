@@ -7,6 +7,8 @@
 int main()
 {
     FILE *fpData,
+         *fpDataFixed,
+         *fpDataVariable,
          *fpTextFixed,
          *fpTextVariable;
     student reg;
@@ -42,20 +44,44 @@ int main()
     fread(&reg,1,sizeof(reg),fpData);
     while(!feof(fpData))
     {
-        fprintf(fpTextFixed,"%08ld%-*s%-*s%2.2f\n",reg.dni,reg.name,reg.surName,reg.average);
+        //Preguntar por %-*s
+        fprintf(fpTextFixed,"%08ld%-51s%-51s%-7.2f\n",reg.dni,reg.name,reg.surName,reg.average);
 
-        fprintf(fpTextVariable,"%ld|%-*s|%-*s|%f\n",reg.dni,reg.name,reg.surName,reg.average);
+        fprintf(fpTextVariable,"%ld|%-s|%-s|%.2f\n",reg.dni,reg.name,reg.surName,reg.average);
 
         fread(&reg,1,sizeof(reg),fpData);
     }
-
-    while(fgets(line,LINE,fpTextFixed))
+    if(!openFile(&fpDataFixed,FileStudentFixed,"r+b",!CON_SIN_MSJ))
     {
-        if(aux = strchr(line,'\n'))
+        if(!openFile(&fpDataFixed,FileStudentFixed,"w+b",CON_SIN_MSJ))
         {
             fclose(fpData);
             fclose(fpTextFixed);
             fclose(fpTextVariable);
+            return 0;
+        }
+    }
+    if(!openFile(&fpDataVariable,FileStudentVariable,"r+b",!CON_SIN_MSJ))
+    {
+        if(!openFile(&fpDataVariable,FileStudentVariable,"w+b",CON_SIN_MSJ))
+        {
+            fclose(fpData);
+            fclose(fpTextFixed);
+            fclose(fpTextVariable);
+            fclose(fpDataFixed);
+            return 0;
+        }
+    }
+    while(fgets(line,sizeof(line),fpTextFixed))
+    {
+        if(!(aux = strchr(line,'\n')))
+        {
+            fprintf(stderr,"Error - No se pudo procesar archivo %s", FILE_TEXT_FIXED);
+            fclose(fpData);
+            fclose(fpTextFixed);
+            fclose(fpTextVariable);
+            fclose(fpDataFixed);
+            fclose(fpDataVariable);
             return 0;
         }
         *aux = '\0';
@@ -79,12 +105,14 @@ int main()
         sscanf(aux,"%ld",&reg.dni);
         *aux = '\0';
 
-        //TODO: escribir un 2do archivo binario para archivo de txt de longitud fija
+        fwrite(line,1,sizeof(line),fpDataFixed);
     }
 
     fclose(fpData);
     fclose(fpTextFixed);
     fclose(fpTextVariable);
+    fclose(fpDataFixed);
+    fclose(fpDataVariable);
 
     return 0;
 }

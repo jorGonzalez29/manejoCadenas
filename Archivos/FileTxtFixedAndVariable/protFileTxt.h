@@ -2,11 +2,12 @@
 #define PROTFILETXT_H_INCLUDED
 
 #define FileStudent "Data"
-#define FILE_TEXT_FIXED "txtFijo"
+#define FileStudentFixed "DataFixed"
+#define FileStudentVariable "DataVariable"
+#define FILE_TEXT_FIXED "txtFixed"
 #define FILE_TEXT_VARIABLE "txtVariable"
 #define CON_SIN_MSJ 1
-#define TAM_LINE 101
-#define AVERAGE 3
+#define AVERAGE 9
 #define SURNAME 51
 #define NAME 51
 #define DNI 8
