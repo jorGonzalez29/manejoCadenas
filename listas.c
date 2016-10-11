@@ -94,7 +94,7 @@ int comparaDNI(const void* d1, const void* d2)
         {printf("retorna 1");
         return 1;}
     else
-        if(((t_info*)d1)->dni < ((t_info*)d2)->dni)
+        if(((const t_info*)d1)->dni < ((const t_info*)d2)->dni)
             {printf("retorna -1");
             return -1;}
         else
@@ -108,7 +108,7 @@ int comparaDNI2(const void* dni1, const void* dni2)
         {printf("retorna 1");
         return 1;}
     else
-        if((int*)dni1 < (int*)dni2)
+        if((const int*)dni1 < (const int*)dni2)
             {printf("retorna -1");
             return -1;}
         else
