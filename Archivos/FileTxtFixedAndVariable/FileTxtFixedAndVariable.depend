@@ -11,3 +11,15 @@
 	<string.h>
 	"protFileTxt.h"
 
+1474319451 source:c:\funcionesstring\archivos\filetxtfixedandvariable\funfiletxt.c
+	<stdio.h>
+	"protFileTxt.h"
+
+1474590363 c:\funcionesstring\archivos\filetxtfixedandvariable\protfiletxt.h
+
+1474591351 source:c:\funcionesstring\archivos\filetxtfixedandvariable\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"protFileTxt.h"
+

@@ -1,0 +1,292 @@
+# depslib dependency file v1.0
+1416945461 source:c:\dropbox\unlam\programacion\examenesenmaquina\2014-11-28\2doparcialc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Defines.h>
+	<Arbol.h>
+	<Menu.h>
+	<Socio.h>
+	<AccionesMenu.h>
+	<Main.h>
+
+1416942450 c:\dropbox\unlam\programacion\examenesenmaquina\2014-11-28\include\defines.h
+
+1416943536 c:\dropbox\unlam\programacion\examenesenmaquina\2014-11-28\include\arbol.h
+	<Dato.h>
+
+1416925530 c:\dropbox\unlam\programacion\examenesenmaquina\2014-11-28\include\dato.h
+	<Indice.h>
+
+1416941437 c:\dropbox\unlam\programacion\examenesenmaquina\2014-11-28\include\indice.h
+
+1416945293 c:\dropbox\unlam\programacion\examenesenmaquina\2014-11-28\include\menu.h
+
+1416941658 c:\dropbox\unlam\programacion\examenesenmaquina\2014-11-28\include\socio.h
+	<Fecha.h>
+
+1416943355 c:\dropbox\unlam\programacion\examenesenmaquina\2014-11-28\include\fecha.h
+
+1416941704 c:\dropbox\unlam\programacion\examenesenmaquina\2014-11-28\include\accionesmenu.h
+	<stdio.h>
+
+1416829249 c:\dropbox\unlam\programacion\examenesenmaquina\2014-11-28\include\main.h
+
+1416949614 source:c:\dropbox\unlam\programacion\examenesenmaquina\2015-07-07\2doparcialc\accionesmenu.c
+	<AccionesMenu.h>
+
+1417092616 c:\dropbox\unlam\programacion\examenesenmaquina\2015-07-07\include\accionesmenu.h
+	<stdio.h>
+	<Arbol.h>
+	<Socio.h>
+
+1417092697 c:\dropbox\unlam\programacion\examenesenmaquina\2015-07-07\include\arbol.h
+	<Dato.h>
+
+1416925530 c:\dropbox\unlam\programacion\examenesenmaquina\2015-07-07\include\dato.h
+	<Indice.h>
+
+1416941437 c:\dropbox\unlam\programacion\examenesenmaquina\2015-07-07\include\indice.h
+
+1416941658 c:\dropbox\unlam\programacion\examenesenmaquina\2015-07-07\include\socio.h
+	<Fecha.h>
+
+1416943355 c:\dropbox\unlam\programacion\examenesenmaquina\2015-07-07\include\fecha.h
+
+1417091277 source:c:\dropbox\unlam\programacion\examenesenmaquina\2015-07-07\2doparcialc\arbol.c
+	<Arbol.h>
+
+1417091835 source:c:\dropbox\unlam\programacion\examenesenmaquina\2015-07-07\2doparcialc\indice.c
+	<indice.h>
+
+1417092011 source:c:\dropbox\unlam\programacion\examenesenmaquina\2015-07-07\2doparcialc\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Defines.h>
+	<Arbol.h>
+	<Menu.h>
+	<Socio.h>
+	<AccionesMenu.h>
+	<Main.h>
+
+1416942450 c:\dropbox\unlam\programacion\examenesenmaquina\2015-07-07\include\defines.h
+
+1416945293 c:\dropbox\unlam\programacion\examenesenmaquina\2015-07-07\include\menu.h
+
+1416948777 c:\dropbox\unlam\programacion\examenesenmaquina\2015-07-07\include\main.h
+
+1416949614 source:d:\dropbox\unlam\programacion\examenesenmaquina\2016-11-17\2016-11-17_entregable\2doparcialabmarbol\accionesmenu.c
+	<AccionesMenu.h>
+
+1417092616 d:\dropbox\unlam\programacion\examenesenmaquina\2016-11-17\2016-11-17_entregable\include\accionesmenu.h
+	<stdio.h>
+	<Arbol.h>
+	<Socio.h>
+
+1479072327 d:\dropbox\unlam\programacion\examenesenmaquina\2016-11-17\2016-11-17_entregable\include\arbol.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+	<ListaD.h>
+
+1479071215 d:\dropbox\unlam\programacion\examenesenmaquina\2016-11-17\2016-11-17_entregable\include\tipotda.h
+	<IndiceABMArbol.h>
+
+1416941437 d:\dropbox\unlam\programacion\examenesenmaquina\2016-11-17\2016-11-17_entregable\include\indiceabmarbol.h
+
+1464182109 d:\dropbox\unlam\programacion\examenesenmaquina\2016-11-17\2016-11-17_entregable\include\punterosafuncion.h
+
+1447166525 d:\dropbox\unlam\programacion\examenesenmaquina\2016-11-17\2016-11-17_entregable\include\listad.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1416941658 d:\dropbox\unlam\programacion\examenesenmaquina\2016-11-17\2016-11-17_entregable\include\socio.h
+	<Fecha.h>
+
+1479070745 d:\dropbox\unlam\programacion\examenesenmaquina\2016-11-17\2016-11-17_entregable\include\fecha.h
+
+1479073969 source:d:\dropbox\unlam\programacion\examenesenmaquina\2016-11-17\2016-11-17_entregable\2doparcialabmarbol\arbol.c
+	<Arbol.h>
+
+1479071265 source:d:\dropbox\unlam\programacion\examenesenmaquina\2016-11-17\2016-11-17_entregable\2doparcialabmarbol\indice.c
+	<indiceABMArbol.h>
+
+1479080123 source:d:\dropbox\unlam\programacion\examenesenmaquina\2016-11-17\2016-11-17_entregable\2doparcialabmarbol\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Defs.h>
+	<Arbol.h>
+	<Menu.h>
+	<Socio.h>
+	<AccionesMenu.h>
+	<TipoTDA.h>
+	<MainABMArbol.h>
+
+1479070042 d:\dropbox\unlam\programacion\examenesenmaquina\2016-11-17\2016-11-17_entregable\include\defs.h
+
+1416945293 d:\dropbox\unlam\programacion\examenesenmaquina\2016-11-17\2016-11-17_entregable\include\menu.h
+
+1416948777 d:\dropbox\unlam\programacion\examenesenmaquina\2016-11-17\2016-11-17_entregable\include\mainabmarbol.h
+
+1479073969 source:d:\2016-11-17_entregable\2doparcialabmarbol\arbol.c
+	<Arbol.h>
+
+1479072327 d:\2016-11-17_entregable\include\arbol.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+	<ListaD.h>
+
+1479071215 d:\2016-11-17_entregable\include\tipotda.h
+	<IndiceABMArbol.h>
+
+1416941437 d:\2016-11-17_entregable\include\indiceabmarbol.h
+
+1464182109 d:\2016-11-17_entregable\include\punterosafuncion.h
+
+1447166525 d:\2016-11-17_entregable\include\listad.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1479071265 source:d:\2016-11-17_entregable\2doparcialabmarbol\indice.c
+	<indiceABMArbol.h>
+
+1479082798 source:d:\2016-11-17_entregable\2doparcialabmarbol\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Defs.h>
+	<Arbol.h>
+	<Menu.h>
+	<Socio.h>
+	<AccionesMenu.h>
+	<TipoTDA.h>
+	<MainABMArbol.h>
+
+1479070042 d:\2016-11-17_entregable\include\defs.h
+
+1416945293 d:\2016-11-17_entregable\include\menu.h
+
+1416941658 d:\2016-11-17_entregable\include\socio.h
+	<Fecha.h>
+
+1479070745 d:\2016-11-17_entregable\include\fecha.h
+
+1417092616 d:\2016-11-17_entregable\include\accionesmenu.h
+	<stdio.h>
+	<Arbol.h>
+	<Socio.h>
+
+1416948777 d:\2016-11-17_entregable\include\mainabmarbol.h
+
+1416949614 source:d:\2016-11-17_entregable\2doparcialabmarbol\accionesmenu.c
+	<AccionesMenu.h>
+
+1479441004 source:i:\2016-11-17_entregable\2doparcialabmarbol\arbol.c
+	<Arbol.h>
+
+1479072328 i:\2016-11-17_entregable\include\arbol.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+	<ListaD.h>
+
+1479071216 i:\2016-11-17_entregable\include\tipotda.h
+	<IndiceABMArbol.h>
+
+1416941438 i:\2016-11-17_entregable\include\indiceabmarbol.h
+
+1464182110 i:\2016-11-17_entregable\include\punterosafuncion.h
+
+1447166526 i:\2016-11-17_entregable\include\listad.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1479440982 source:i:\2016-11-17_entregable\2doparcialabmarbol\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Defs.h>
+	<Arbol.h>
+	<Menu.h>
+	<Socio.h>
+	<AccionesMenu.h>
+	<TipoTDA.h>
+	<MainABMArbol.h>
+
+1479070042 i:\2016-11-17_entregable\include\defs.h
+
+1416945294 i:\2016-11-17_entregable\include\menu.h
+
+1416941658 i:\2016-11-17_entregable\include\socio.h
+	<Fecha.h>
+
+1479070746 i:\2016-11-17_entregable\include\fecha.h
+
+1417092616 i:\2016-11-17_entregable\include\accionesmenu.h
+	<stdio.h>
+	<Arbol.h>
+	<Socio.h>
+
+1416948778 i:\2016-11-17_entregable\include\mainabmarbol.h
+
+1479431693 source:e:\facultad de ingenieria\15-programacion\lo que estoy utilizando\curso pan 2do cuat 2016\2016-11-17_entregable\2doparcialabmarbol\arbol.c
+	<Arbol.h>
+	<stdio.h>
+	<Defs.h>
+	<stdlib.h>
+
+1479072328 e:\facultad de ingenieria\15-programacion\lo que estoy utilizando\curso pan 2do cuat 2016\2016-11-17_entregable\include\arbol.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+	<ListaD.h>
+
+1479071216 e:\facultad de ingenieria\15-programacion\lo que estoy utilizando\curso pan 2do cuat 2016\2016-11-17_entregable\include\tipotda.h
+	<IndiceABMArbol.h>
+
+1416941438 e:\facultad de ingenieria\15-programacion\lo que estoy utilizando\curso pan 2do cuat 2016\2016-11-17_entregable\include\indiceabmarbol.h
+
+1464182110 e:\facultad de ingenieria\15-programacion\lo que estoy utilizando\curso pan 2do cuat 2016\2016-11-17_entregable\include\punterosafuncion.h
+
+1447166526 e:\facultad de ingenieria\15-programacion\lo que estoy utilizando\curso pan 2do cuat 2016\2016-11-17_entregable\include\listad.h
+	<TipoTDA.h>
+	<PunterosAFuncion.h>
+
+1479436082 source:e:\facultad de ingenieria\15-programacion\lo que estoy utilizando\curso pan 2do cuat 2016\2016-11-17_entregable\2doparcialabmarbol\main.c
+	<stdio.h>
+	<stdlib.h>
+	<Defs.h>
+	<Arbol.h>
+	<Menu.h>
+	<Socio.h>
+	<AccionesMenu.h>
+	<TipoTDA.h>
+	<MainABMArbol.h>
+
+1479070042 e:\facultad de ingenieria\15-programacion\lo que estoy utilizando\curso pan 2do cuat 2016\2016-11-17_entregable\include\defs.h
+
+1416945294 e:\facultad de ingenieria\15-programacion\lo que estoy utilizando\curso pan 2do cuat 2016\2016-11-17_entregable\include\menu.h
+
+1416941658 e:\facultad de ingenieria\15-programacion\lo que estoy utilizando\curso pan 2do cuat 2016\2016-11-17_entregable\include\socio.h
+	<Fecha.h>
+
+1479070746 e:\facultad de ingenieria\15-programacion\lo que estoy utilizando\curso pan 2do cuat 2016\2016-11-17_entregable\include\fecha.h
+
+1417092616 e:\facultad de ingenieria\15-programacion\lo que estoy utilizando\curso pan 2do cuat 2016\2016-11-17_entregable\include\accionesmenu.h
+	<stdio.h>
+	<Arbol.h>
+	<Socio.h>
+
+1416948778 e:\facultad de ingenieria\15-programacion\lo que estoy utilizando\curso pan 2do cuat 2016\2016-11-17_entregable\include\mainabmarbol.h
+
+1479430822 source:e:\facultad de ingenieria\15-programacion\lo que estoy utilizando\curso pan 2do cuat 2016\2016-11-17_entregable\2doparcialabmarbol\indice.c
+	<indiceABMArbol.h>
+
+1479439692 source:e:\facultad de ingenieria\15-programacion\lo que estoy utilizando\curso pan 2do cuat 2016\2016-11-17_entregable\2doparcialabmarbol\accionesmenu.c
+	<AccionesMenu.h>
+	<Arbol.h>
+	<stdio.h>
+	<Defs.h>
+	<stdlib.h>
+	<string.h>
+
+1479441032 source:i:\2016-11-17_entregable\2doparcialabmarbol\indice.c
+	<indiceABMArbol.h>
+
+1479441046 source:i:\2016-11-17_entregable\2doparcialabmarbol\accionesmenu.c
+	<AccionesMenu.h>
+

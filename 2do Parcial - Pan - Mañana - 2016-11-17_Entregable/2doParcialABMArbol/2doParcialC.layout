@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="AccionesMenu.c" open="1" top="1" tabpos="5">
+		<Cursor position="133" topLine="0" />
+	</File>
+	<File name="Arbol.c" open="1" top="0" tabpos="6">
+		<Cursor position="246" topLine="0" />
+	</File>
+	<File name="Indice.c" open="1" top="0" tabpos="7">
+		<Cursor position="113" topLine="0" />
+	</File>
+	<File name="main.c" open="1" top="0" tabpos="8">
+		<Cursor position="1989" topLine="93" />
+	</File>
+	<File name="..\include\AccionesMenu.h" open="1" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="..\include\Arbol.h" open="1" top="0" tabpos="1">
+		<Cursor position="801" topLine="0" />
+	</File>
+	<File name="..\include\Defs.h" open="1" top="0" tabpos="9">
+		<Cursor position="114" topLine="2" />
+	</File>
+	<File name="..\include\Fecha.h" open="1" top="0" tabpos="4">
+		<Cursor position="83" topLine="0" />
+	</File>
+	<File name="..\include\IndiceABMArbol.h" open="1" top="0" tabpos="10">
+		<Cursor position="109" topLine="0" />
+	</File>
+	<File name="..\include\MainABMArbol.h" open="1" top="0" tabpos="11">
+		<Cursor position="258" topLine="0" />
+	</File>
+	<File name="..\include\Socio.h" open="1" top="0" tabpos="3">
+		<Cursor position="233" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>
