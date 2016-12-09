@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1473598521 source:c:\users\jorge\desktop\3racursadaprogra\eliminarcaracter\funeliminar.c
+	<stdio.h>
+	"protEliminar.h"
+
+1473016597 c:\users\jorge\desktop\3racursadaprogra\eliminarcaracter\proteliminar.h
+
+1473017439 source:c:\users\jorge\desktop\3racursadaprogra\eliminarcaracter\main.c
+	<stdio.h>
+	<stdlib.h>
+	"protEliminar.h"
+

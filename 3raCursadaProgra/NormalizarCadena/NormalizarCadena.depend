@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1472400694 source:c:\users\jorge\desktop\3racursadaprogra\normalizarcadena\funnormalizarcad.c
+	<stdio.h>
+	<string.h>
+	"ProtNormalizarCad.h"
+
+1472397348 c:\users\jorge\desktop\3racursadaprogra\normalizarcadena\protnormalizarcad.h
+
+1472400419 source:c:\users\jorge\desktop\3racursadaprogra\normalizarcadena\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ProtNormalizarCad.h"
+

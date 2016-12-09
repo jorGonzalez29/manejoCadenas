@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1472601308 source:c:\users\jorge\desktop\3racursadaprogra\palindrome\funpalindrome.c
+	<stdio.h>
+	"protPalindrome.h"
+
+1472601137 c:\users\jorge\desktop\3racursadaprogra\palindrome\protpalindrome.h
+
+1472601034 source:c:\users\jorge\desktop\3racursadaprogra\palindrome\main.c
+	<stdio.h>
+	<stdlib.h>
+	"protPalindrome.h"
+

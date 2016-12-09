@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1476043187 source:c:\users\jorge\desktop\3racursadaprogra\list primitives\funtionsfile.c
+	<stdio.h>
+	"prototypeFile.h"
+
+1476041781 c:\users\jorge\desktop\3racursadaprogra\list primitives\prototypefile.h
+
+1476042286 source:c:\users\jorge\desktop\3racursadaprogra\list primitives\listdynamicfunctions.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<stdlib.h>
+	"ListDynamicPrototipes.h"
+
+1476043699 c:\users\jorge\desktop\3racursadaprogra\list primitives\listdynamicprototipes.h
+	"prototypeFile.h"
+
+1476043875 source:c:\users\jorge\desktop\3racursadaprogra\list primitives\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ListDynamicPrototipes.h"
+

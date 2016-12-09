@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1472609081 source:c:\users\jorge\desktop\3racursadaprogra\encriptar\funencriptar.c
+	<stdio.h>
+	"protEncriptar.h"
+
+1472608276 c:\users\jorge\desktop\3racursadaprogra\encriptar\protencriptar.h
+
+1472607899 source:c:\users\jorge\desktop\3racursadaprogra\encriptar\main.c
+	<stdio.h>
+	<stdlib.h>
+	"protEncriptar.h"
+

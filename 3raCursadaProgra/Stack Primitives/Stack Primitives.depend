@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1474822125 source:c:\users\jorge\desktop\3racursadaprogra\stack primitives\stackfunctions.c
+	<stdio.h>
+	"stackPrototipe.h"
+
+1474816259 c:\users\jorge\desktop\3racursadaprogra\stack primitives\stackprototipe.h
+	"filePrototipe.h"
+
+1474822441 c:\users\jorge\desktop\3racursadaprogra\stack primitives\fileprototipe.h
+
+1474822470 source:c:\users\jorge\desktop\3racursadaprogra\stack primitives\filefunctions.c
+	<stdio.h>
+	"filePrototipe.h"
+
+1474821841 source:c:\users\jorge\desktop\3racursadaprogra\stack primitives\menufunctions.c
+	<stdio.h>
+	"menuPrototipes.h"
+	<string.h>
+	<ctype.h>
+
+1474816661 c:\users\jorge\desktop\3racursadaprogra\stack primitives\menuprototipes.h
+
+1474822331 source:c:\users\jorge\desktop\3racursadaprogra\stack primitives\main.c
+	<stdio.h>
+	"stackPrototipe.h"
+	"filePrototipe.h"
+	"menuPrototipes.h"
+

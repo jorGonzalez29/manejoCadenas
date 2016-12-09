@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1474319451 source:c:\users\jorge\desktop\3racursadaprogra\filetxtfixedandvariable\funfiletxt.c
+	<stdio.h>
+	"protFileTxt.h"
+
+1474590363 c:\users\jorge\desktop\3racursadaprogra\filetxtfixedandvariable\protfiletxt.h
+
+1476814044 source:c:\users\jorge\desktop\3racursadaprogra\filetxtfixedandvariable\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"protFileTxt.h"
+

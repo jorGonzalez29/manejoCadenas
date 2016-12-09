@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1474317963 source:c:\users\jorge\desktop\3racursadaprogra\updatefile\main.c
+	<stdio.h>
+	<stdlib.h>
+	"updateFilePrototipe.h"
+
+1474317949 c:\users\jorge\desktop\3racursadaprogra\updatefile\updatefileprototipe.h
+
+1474318426 source:c:\users\jorge\desktop\3racursadaprogra\updatefile\updatefilefunction.c
+	<stdio.h>
+	"updateFilePrototipe.h"
+

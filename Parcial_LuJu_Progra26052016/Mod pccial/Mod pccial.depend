@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1464223386 source:c:\users\martin\documents\mod pccial\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	<string.h>
+
+1464223386 c:\users\martin\documents\mod pccial\funciones.h
+
+1464223397 source:c:\users\martin\documents\mod pccial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1464223684 source:c:\users\jorge\desktop\parcial_luju_progra26052016\mod pccial\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	<string.h>
+
+1464223386 c:\users\jorge\desktop\parcial_luju_progra26052016\mod pccial\funciones.h
+
+1473007321 source:c:\users\jorge\desktop\parcial_luju_progra26052016\mod pccial\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1477860003 source:c:\users\jorge\desktop\time\main.cpp
+	<iostream>
+	"ClassTime.h"
+
+1477859391 c:\users\jorge\desktop\time\classtime.h
+	<stdbool.h>
+
+1477860015 source:c:\users\jorge\desktop\time\methodtime.cpp
+	<iostream>
+	<stdbool.h>
+	"ClassTime.h"
+

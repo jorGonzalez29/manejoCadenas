@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1476043187 source:c:\users\jorge\desktop\queue primitives\funtionsfile.c
+	<stdio.h>
+	"prototypeFile.h"
+
+1476041781 c:\users\jorge\desktop\queue primitives\prototypefile.h
+
+1476119530 source:c:\users\jorge\desktop\queue primitives\main.c
+	<stdio.h>
+	<stdlib.h>
+	"StaticPototypeQueue.h"
+
+1476119991 c:\users\jorge\desktop\queue primitives\staticpototypequeue.h
+	"prototypeFile.h"
+
+1476119236 source:c:\users\jorge\desktop\queue primitives\staticfunctionsqueue.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"StaticPototypeQueue.h"
+
+1476120318 source:c:\users\jorge\desktop\queue primitives\dynamicfunctionsqueue.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"DynamicPrototypeQueue.h"
+
+1476119138 c:\users\jorge\desktop\queue primitives\dynamicprototypequeue.h
+	"prototypeFile.h"
+

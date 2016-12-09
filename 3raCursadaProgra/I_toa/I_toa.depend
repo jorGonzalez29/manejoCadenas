@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1472407918 source:c:\users\jorge\desktop\3racursadaprogra\i_toa\main.c
+	<stdio.h>
+	<stdlib.h>
+	"protItoa.h"
+
+1472406125 c:\users\jorge\desktop\3racursadaprogra\i_toa\protitoa.h
+
+1472408254 source:c:\users\jorge\desktop\3racursadaprogra\i_toa\funitoa.c
+	<stdio.h>
+	"protItoa.h"
+

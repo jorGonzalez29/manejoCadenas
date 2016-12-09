@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1476561824 source:c:\users\jorge\desktop\matrices\funciones matrices.c
+	<stdio.h>
+	"prototipos funciones.h"
+
+1476561373 c:\users\jorge\desktop\matrices\prototipos funciones.h
+
+1476561858 source:c:\users\jorge\desktop\matrices\main.c
+	<stdio.h>
+	<stdlib.h>
+	"prototipos funciones.h"
+
